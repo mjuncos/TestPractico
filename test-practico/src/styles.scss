@@ -1,0 +1,25 @@
+@import "./App.scss";
+@import "./index.scss";
+@import "./pages/Resultados/resultados.module.scss";
+
+$background-color: #eeeeee;
+$button-color: #3483fa;
+$breadcrumb-color: #999999;
+$text-color: #333333;
+$bar-color: #ffe600;
+$transparent: transparent;
+$white: white;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+body,
+html {
+  background-color: $background-color !important;
+}
+
+.search {
+  background-color: $background-color;
+}

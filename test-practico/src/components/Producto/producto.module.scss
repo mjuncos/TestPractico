@@ -1,0 +1,85 @@
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 2.5%;
+    right: 2.5%;
+    height: 1px;
+    background-color: #eeeeee;
+    bottom: 0;
+  }
+
+  &:last-child::after {
+    display: none;
+  }
+
+  .productImage {
+    height: 180px;
+    width: 180px;
+    border-radius: 4px;
+    margin: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .productInfo {
+    margin-left: 16px;
+    align-items: flex-start;
+    width: 55%;
+    height: 160px;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    cursor: pointer;
+    align-content: center;
+
+    p {
+      color: #333333;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .freeShippingIcon {
+      height: 20px;
+      width: 20px;
+      margin-left: 8px;
+    }
+  }
+
+  .productTitle {
+    p {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 500;
+      color: #333333;
+      cursor: pointer;
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
+
+  .location {
+    height: 160px;
+    font-size: 12px;
+    width: 20%;
+    margin: 0;
+    color: #999999;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+  }
+}
