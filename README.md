@@ -12,7 +12,7 @@ descripción del detalle del producto.
 2. Abrir una terminal
 3. Navegar al directorio test-practico:
   ```bash
-   cd test-practico
+   cd TestPractico/test-practico
 ```
 4. Ingresar a la carpeta api con 
   ```bash
