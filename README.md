@@ -7,7 +7,7 @@ descripción del detalle del producto.
 ### Cómo correr el proyecto
 1. Clonar el repositorio:
  ```bash
-   https://github.com/mjuncos/TestPractico
+   https://github.com/mjuncos/TestPractico.git
 ```
 2. Abrir una terminal
 3. Navegar al directorio test-practico:
