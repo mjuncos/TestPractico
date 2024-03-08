@@ -22,14 +22,20 @@ descripción del detalle del producto.
   ```bash
    npm install
 ```
-6. Volver e instalar dependencias en el directorio raiz.
+6. Volver al directorio raiz.
  ```bash
    cd ..
 ```
-  ```bash
-  npm install
+7. Instalar Sass 
+ ```bash
+   npm install sass
 ```
-7. Iniciar el proyecto con el siguiente comando:
+9.  Iniciar las demas dependencias
+  ```bash
+   npm install
+```
+10. Iniciar el proyecto con el siguiente comando:
   ```bash
    npm run dev
 ```
+
