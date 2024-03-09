@@ -15,17 +15,17 @@ const Detalle = () => {
   const categories = useSelector((state) => state.products.categories);
 
   useEffect(() => {
-    store.dispatch(setItemError(false))
+    store.dispatch(setItemError(false));
     getProduct(id);
   }, [id]);
 
   return error ? (
-    <div className={"mainContainer"}>
-      <div className={"productTitle"}>
-        <h1>Parece que el producto no existe!</h1>
+    <div className={"mainContainerError"}>
+      <div className={"noProducts"}>
+        No se encontraron productos relacionados a su búsqueda
       </div>
     </div>
-  ) : producto.id?  (
+  ) : producto.id ? (
     <div className={"breadContainer"}>
       <div className={"breadcrumb"}>
         <Breadcrumb elements={categories} />
@@ -62,9 +62,7 @@ const Detalle = () => {
   ) : (
     <div className={"breadContainer"}>
       <div className={"mainContainer"}>
-        <div className={"productContainer"}>
-   
-        </div>
+        <div className={"productContainer"}></div>
       </div>
     </div>
   );

@@ -93,3 +93,24 @@
     color: $breadcrumb-color;
   }
 }
+
+
+.mainContainerError {
+  background-color: white;
+  align-items: center;
+  margin: auto ;
+  border-radius: 4px;
+  position: relative;
+  width: 1024px;
+  margin-top: 16px;
+  align-self: center;
+}
+
+.noProducts{
+  font-size: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
